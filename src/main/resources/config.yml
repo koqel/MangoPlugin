@@ -1,0 +1,35 @@
+# MangoPlugin Configuration
+# Created by plasma.services
+
+# Item settings
+items:
+  mango:
+    name: "&6Mango"
+    lore:
+      - "&eA sweet, juicy tropical fruit"
+      - "&7Restores &a4 &7hunger points"
+      - "&7Provides &a4.0 &7saturation"
+    food_level: 4
+    saturation: 4.0
+
+  mango_seed:
+    name: "&eMango Seed"
+    lore:
+      - "&7Plant this on dirt or grass"
+      - "&7to grow a mango tree"
+      - ""
+      - "&7Growth time: &a30 minutes"
+
+# Gameplay mechanics
+mechanics:
+  # Chance to get a seed when eating a mango (0.0 to 1.0)
+  seed_drop_chance: 0.3
+
+  # Chance for leaves to drop a mango when broken (0.0 to 1.0)
+  leaf_drop_chance: 0.1
+
+  # Time in minutes for a mango tree to fully grow
+  growth_time: 30
+
+  # Whether to use custom tree generation (true) or vanilla jungle trees (false)
+  use_custom_tree_generation: true

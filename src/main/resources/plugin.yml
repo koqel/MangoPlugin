@@ -1,0 +1,20 @@
+name: MangoPlugin
+version: '1.0.0'
+main: services.plasma.mangoPlugin.MangoPlugin
+api-version: '1.13'
+prefix: Mango
+authors: [ Plasma Services ]
+description: A plugin that adds mangos to Minecraft
+website: https://plasma.services/
+commands:
+  mango:
+    description: Main command for MangoPlugin
+    usage: /mango <subcommand>
+    aliases: [mangos, mangoplugin]
+permissions:
+  mangoplugin.give:
+    description: Allows giving mango items
+    default: op
+  mangoplugin.reload:
+    description: Allows reloading the plugin configuration
+    default: op
